@@ -1,0 +1,29 @@
+.rec{
+  width: 30%;
+  height: 570px;
+  padding: 0;
+}
+.inp{
+  margin: 0 auto;
+  width: 460px;
+  height: 150px;
+  
+}
+.bg{
+  background-color: rgb(75, 75, 75);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+button {
+  height: 60px;
+  font-size: 2rem!important;
+}
+.equal-sign {
+  height: 100%;
+  grid-area: 2 / 4 / 6 / 5;
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
